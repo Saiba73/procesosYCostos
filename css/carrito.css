@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+.momo-trust-display-regular {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#Carrito {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 30%;
+  height: 90%;
+  border-radius: 14px;
+  background-color: rgb(0, 132, 255);
+}
+
+.articulo {
+  margin-top: 12%;
+  margin-left: 1%;
+  display: flex;
+}
+
+.nombre {
+  font-weight: bold;
+  font-size: large;
+  margin-left: 4%;
+}
+
+.precio {
+  font-weight: bold;
+  font-size: large;
+  margin-left: 4%;
+}
+
+#cantidad_total {
+  font-weight: bold;
+  font-size: large;
+  margin-left: 4%;
+}
+
+input {
+  margin-top: 1%;
+  margin-left: 4%;
+  margin-bottom: 2%;
+  background-color: yellow;
+  padding: 12px 26px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
